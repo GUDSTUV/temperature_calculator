@@ -22,7 +22,7 @@ function convert() {
             displayBtn.innerHTML = tempDisplay.toFixed(1) + "°F ☀";
         }
 
-        else if(tempDisplay >=z70) {
+        else if(tempDisplay >=70) {
             displayBtn.innerHTML = tempDisplay.toFixed(1) + "°F ⛅";
             
         }
